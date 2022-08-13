@@ -27,6 +27,15 @@ url: "https://notkevin12.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  notkevin12
 repository: "notkevin12/portfolio"
+author:
+  name: "Kevin Lai"
+  avatar: "/assets/images/ok-pfp.png"
+  bio: "3rd year CS undergrad at UCSB"
+  location: "Santa Barbara, CA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/notkevin12"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
