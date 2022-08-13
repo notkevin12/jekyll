@@ -26,6 +26,7 @@ baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://notkevin12.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  notkevin12
+repository: "notkevin12/portfolio"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
