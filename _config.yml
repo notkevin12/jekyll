@@ -27,12 +27,17 @@ url: "https://notkevin12.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  notkevin12
 repository: "notkevin12/portfolio"
+
+# Site Author
 author:
   name: "Kevin Lai"
   avatar: "/assets/images/ok-pfp.png"
   bio: "3rd year CS undergrad at UCSB"
   location: "Santa Barbara, CA"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:chenkuanlai@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/notkevin12"
@@ -43,9 +48,22 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 # Minimal Mistakes config
-paginate: 5
-paginate_path: /page:num/
+include:
+  - _pages
+
+# paginate: 5
+# paginate_path: /page:num/
 minimal_mistakes_skin: "dark" 
 
 # Exclude from processing.
